@@ -1,10 +1,10 @@
-** State Pattern - Kávovar s Jedním Tlaèítkem
+### State Pattern - KÃ¡vovar s JednÃ­m TlaÄÃ­tkem
 
-State pattern je návrhovı vzor, kterı umoòuje objektu zmìnit své chování v závislosti na svém vnitøním stavu.
-Tento vzor je uiteènı pro objekty, které mohou bıt ve více stavech a jejich chování se mìní podle toho, v jakém stavu se nacházejí.
+State pattern je nÃ¡vrhovÃ½ vzor, kterÃ½ umoÅ¾Åˆuje objektu zmÄ›nit svÃ© chovÃ¡nÃ­ v zÃ¡vislosti na svÃ©m vnitÅ™nÃ­m stavu.
+Tento vzor je uÅ¾iteÄnÃ½ pro objekty, kterÃ© mohou bÃ½t ve vÃ­ce stavech a jejich chovÃ¡nÃ­ se mÄ›nÃ­ podle toho, v jakÃ©m stavu se nachÃ¡zejÃ­.
 
-Pøidávat nové stavy je moné za pomoci vytvoøení novıch tøíd a není nutné upravovat vnitøní kód (kávovaru).
+PÅ™idÃ¡vat novÃ© stavy je moÅ¾nÃ© za pomoci vytvoÅ™enÃ­ novÃ½ch tÅ™Ã­d a nenÃ­ nutnÃ© upravovat vnitÅ™nÃ­ kÃ³d (kÃ¡vovaru).
 
-Pøi volání zmáèknutí tlaèítka na stavu se pøedává reference na kávovar, take stav má kompletní kontext.
+PÅ™i volÃ¡nÃ­ zmÃ¡ÄknutÃ­ tlaÄÃ­tka na stavu se pÅ™edÃ¡vÃ¡ reference na kÃ¡vovar, takÅ¾e stav mÃ¡ kompletnÃ­ kontext.
 
-Vybrali jsme state, protoe je nejvhodnìjší pro tento problém.
+Vybrali jsme state, protoÅ¾e je nejvhodnÄ›jÅ¡Ã­ pro tento problÃ©m.
